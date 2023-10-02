@@ -1,0 +1,208 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+
+body{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Caprasimo', cursive;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.button_1{
+    background-color: #e8491d;
+    height: 38px;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+header{
+    background-color: #35424a;
+    color: rgb(255, 255, 255);
+    min-height: 70px;
+    padding-top: 30px;
+    border-bottom: #e8491d 3px solid;
+}
+h1{
+    font-size: 20px;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header #branding{
+    float: left;
+}
+
+header.highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+
+header a:hover{
+    color: #f19c9c;
+    font-weight: bold;
+}
+
+#showcase{
+
+    height: 400px;
+    text-align: center;
+    color:  white;
+    background: url("../IMG/kxsprblyby171.png");
+    background-size: auto;
+    text-shadow: 2px 2px 5px black;
+}
+#showcase h1{
+    font-size: 55px;
+    margin-top: 100px;
+}
+#showcase p{
+    font-size: 18px;
+}
+#newsletter{
+    background-color: #25424a;
+    padding: 15px;
+    color: white;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 8px;
+}
+#newsletter input[type ="email"]{
+    height: 25px;
+    width: 250px;
+    padding: 5px;
+
+}
+
+.box{
+    margin-top: 25px;
+
+}
+
+.boxes .box{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.boxes .box p{
+    text-align: justify;
+    padding: 10px;
+}
+.boxes .box img{
+    height: 95px;
+}
+
+
+
+
+
+footer{
+    background-color: #e8481d;
+    height: 30px;
+    text-align: center;
+    text-align: 60px;
+    color: white;
+}
+
+
+footer p{
+    padding-top: 8px;
+}
+
+
+
+
+
+/*area de about*/
+
+.About .aboutbox{
+    width: 100%;
+    float:center;
+    text-align: center;
+}
+
+.About .aboutbox p{
+    text-align:justify;
+    padding: 10px;
+}
+
+.About .aboutbox img{
+    height: 95px;
+}
+
+#ABOUT{
+
+    height: 200px;
+    text-align: center;
+    color:  white;
+    background: url("../IMG/OIP.jfif");
+    background-size: auto;
+    text-shadow: 2px 2px 5px black;
+}
+/*Area de Servicos*/
+
+.Servicos .boxS{
+    width: 100%;
+    float:center;
+    text-align: center;
+}
+
+.Servicos .boxS p{
+    text-align:justify;
+    padding: 10px;
+}
+
+.Servicos .boxS img{
+    height: 95px;
+}
+#SerV{
+
+    height: 200px;
+    text-align: center;
+    color:  white;
+    background: url("../IMG/R.jfif");
+    background-size: auto;
+    text-shadow: 2px 2px 5px black;
+}

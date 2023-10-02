@@ -1,0 +1,64 @@
+/*Importação do tipo de letra do website google fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+/*As animações de css são criadas atraves de keyframes*/
+@keyframes slidy{
+    0%{left: 0%;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+}
+
+/*formatação geral para todo o site, Não individual*/
+*{
+    box-sizing: border-box;
+}
+body, figure{
+    margin: 0;
+    background-color: #101010;
+    font-family: Istok Web, sans-serif;
+    font-weight: 100px;
+
+}
+
+div #gallery{
+    width: 100%;
+    overflow: hidden;/*esta propriadade centa a área  "galleria" pelo centro do ecrã*/
+}
+
+/*Formatação da class "Slider" que esta associado ao seletor /tag figure*/
+
+figure.slider{
+    position: relative;
+    width: 500%;
+    font-size: 0;
+    animation: 30s slidy infinite;
+}
+
+figure.slider figure{
+    width:  20%;
+    height: auto;
+    display: inline-block;
+    position: inherit;
+}
+figure .slider img{
+    width: 100%;
+    height: auto;
+
+}
+
+figure .slider, figure, figcaption{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    font-size: 2rem;
+    padding: 0.6rem;
+
+}
